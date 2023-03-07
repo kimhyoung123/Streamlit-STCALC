@@ -2,5 +2,5 @@ streamlit
 pandas
 numpy
 matplotlib
-scipy.stats
-sklearn.linear_model
+scipy
+sklearn
