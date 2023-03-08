@@ -4,8 +4,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 from sklearn.linear_model import LinearRegression
+from streamlit.components.v1 import html
 
+googlesc = """
+<meta name="google-site-verification" content="2C-b4S1ZUwhsOrhYmSm4mEKaFLErw8pZPxSfc5cn8IQ" />
+"""
 
+html(googlesc)
 
 st.title("STCALC")
 
