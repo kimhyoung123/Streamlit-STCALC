@@ -6,6 +6,12 @@ from scipy.stats import norm
 from sklearn.linear_model import LinearRegression
 from streamlit.components.v1 import html
 
+naversa = """
+<meta name="naver-site-verification" content="c6e48c866638bf91242179525a9f22478aed3e55" />
+"""
+
+st.markdown(naversa, unsafe_allow_html=True)
+
 st.title("STCALC")
 
 tab1, tab2, tab3= st.tabs(['Statistics Calculator' , 'Standard Normal Distribution Table', 'Regression'])
