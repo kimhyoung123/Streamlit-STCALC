@@ -8,7 +8,7 @@ from streamlit.components.v1 import html
 
 adfit1 = """
 <ins class="kakao_ad_area" style="display:none;"
-data-ad-unit = "DAN-4hJodn8niIvMCcYm"
+data-ad-unit = "DAN-CLjDFJHoi5JguHzJ"
 data-ad-width = "300"
 data-ad-height = "250"></ins>
 <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
@@ -17,7 +17,7 @@ data-ad-height = "250"></ins>
 st.title("STCALC")
 adfitpc = """
 <ins class="kakao_ad_area" style="display:none;"
-data-ad-unit = "DAN-2IRUGV2n6DguVV1B"
+data-ad-unit = "DAN-zgHZS03h49WdusvP"
 data-ad-width = "728"
 data-ad-height = "90"></ins>
 <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
@@ -138,7 +138,7 @@ with tab3:
 
 adfit22 = """
 <ins class="kakao_ad_area" style="display:none;"
-data-ad-unit = "DAN-79kg4XXggN4eFxJa"
+data-ad-unit = "DAN-65zAgqcupdkO4H4W"
 data-ad-width = "300"
 data-ad-height = "250"></ins>
 <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
