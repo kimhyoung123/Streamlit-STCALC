@@ -6,9 +6,25 @@ from scipy.stats import norm
 from sklearn.linear_model import LinearRegression
 from streamlit.components.v1 import html
 
-st.title("STCALC")
+adfit1 = """
+<ins class="kakao_ad_area" style="display:none;"
+data-ad-unit = "DAN-4hJodn8niIvMCcYm"
+data-ad-width = "300"
+data-ad-height = "250"></ins>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+"""
 
-tab1, tab2, tab3= st.tabs(['Statistics Calculator' , 'Standard Normal Distribution Table', 'Regression'])
+st.title("STCALC")
+adfitpc = """
+<ins class="kakao_ad_area" style="display:none;"
+data-ad-unit = "DAN-2IRUGV2n6DguVV1B"
+data-ad-width = "728"
+data-ad-height = "90"></ins>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+"""
+html(adfitpc)
+
+tab1, tab2, tab3= st.tabs(['Statistics Calculator' , 'Standard Normal Distribution', 'Regression'])
 
 with tab1:
     st.subheader("Statistics Calculator")
@@ -26,6 +42,9 @@ with tab1:
         # Display results
         st.write(f"Input: {nums}")
         st.write(f"Mean: {mean:.2f}")
+        st.write(f"Median: {np.median(nums):.2f}")
+        st.write(f"Max: {max(nums):.2f}")
+        st.write(f"Min: {min(nums):.2f}")
         st.write(f"Standard Deviation: {std:.2f}")
         st.write(f"Variance: {var:.2f}")
 
@@ -116,4 +135,18 @@ with tab3:
 
         # Display R-squared value
         st.success(f"R-squared: {reg.score(x_2d, y_2d):.2f}")
+
+adfit22 = """
+<ins class="kakao_ad_area" style="display:none;"
+data-ad-unit = "DAN-79kg4XXggN4eFxJa"
+data-ad-width = "300"
+data-ad-height = "250"></ins>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+"""
+
+col1, col2 = st.columns(2)
+with col1:
+    html(adfit1)
+with col2:
+    html(adfit22)
 
