@@ -22,7 +22,7 @@ data-ad-width = "728"
 data-ad-height = "90"></ins>
 <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 """
-html(adfitpc)
+html(adfitpc, width=728, height=90)
 
 tab1, tab2, tab3= st.tabs(['Statistics Calculator' , 'Standard Normal Distribution', 'Regression'])
 
