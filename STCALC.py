@@ -146,7 +146,6 @@ data-ad-height = "250"></ins>
 
 col1, col2 = st.columns(2)
 with col1:
-    html(adfit1)
+    html(adfit1, width=300, height=250)
 with col2:
-    html(adfit22)
-
+    html(adfit22, width=300, height=250)
