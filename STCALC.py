@@ -148,3 +148,10 @@ with col1:
     html(adfit1, width=300, height=250)
 with col2:
     html(adfit22, width=300, height=250)
+    
+st.write("사용하기 쉬운 통계 계산기")
+st.write("이 앱을 사용하면 평균, 분산 및 표준 편차와 같은 간단한 통계를 얻을 수 있습니다. 그리고 정규 분포 값을 계산할 수 있습니다. 간단한 선형 회귀를 계산할 수도 있습니다.")
+st.write("이 앱을 통해 일반 평균, 분산, 표준편차와 같은 통계량을 구할 수 있고, 정규분포값을 계산할 수도 있습니다. 또한, 학습회귀와 계산기를 사용할 수 있습니다.")
+st.write("Easy-to-use statistical calculator")
+st.write("The app allows you to get simple statistics such as mean, variance and standard deviation. And you can calculate normal distribution values. You can also compute a simple linear regression.")
+st.write("With this app, you can get statistics such as normal mean, variance, and standard deviation, and you can calculate normal distribution values. Also, learning regression and calculators are available.")
